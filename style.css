@@ -1,0 +1,23 @@
+:root {
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+body {
+    text-align: center;
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+
+}
+
+img {
+    width: 50%;
+    padding: var(--spacing);
+    background: var(--base);
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
